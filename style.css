@@ -1,0 +1,33 @@
+body, html {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  font-family: Arial, sans-serif;
+}
+
+canvas#scene {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+#text {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 1px 1px 4px #000;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+#qr {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  display: none;
+}
